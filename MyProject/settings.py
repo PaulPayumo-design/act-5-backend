@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000','127.0.0.1','http://172.16.0.2:8000/', '172.16.0.2:8000', '172.16.0.2', "https://act-5-backend.onrender.com", "act-5-backend.onrender.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://act-5-backend.onrender.com", "act-5-backend.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://act-5-backend.onrender.com",]
 # Application definition
 
 INSTALLED_APPS = [
