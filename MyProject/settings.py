@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-v3us$9a_-mhmeu+63l8f-p3gvcl#b+yxgjj+81xy=-fc@*p3_g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000','127.0.0.1','http://172.16.0.2:8000/', '172.16.0.2:8000', '172.16.0.2']
+ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000','127.0.0.1','http://172.16.0.2:8000/', '172.16.0.2:8000', '172.16.0.2', "https://act-5-backend.onrender.com", "act-5-backend.onrender.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://act-5-backend.onrender.com",]
+CSRF_TRUSTED_ORIGINS = ["https://act-5-backend.onrender.com", "act-5-backend.onrender.com"]
 # Application definition
 
 INSTALLED_APPS = [
